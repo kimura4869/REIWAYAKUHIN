@@ -1,0 +1,198 @@
+/* //////////////////// */
+/* medium 540px～768px */
+/* ////////////////// */
+
+@media(min-width: 540px) {
+/*	header
+/*---------------------------------	*/
+.top-saiyo {
+  display: inline-block;
+}
+
+.top-saiyo a{
+ padding-top: 19.5px;
+ padding-bottom: 19.5px;
+}
+
+.tomail {
+  display: none;
+}
+
+.top-contact {
+  display: inline-block;
+}
+
+
+/*	main
+/*---------------------------------	*/
+.part h3, .lowpart h3, .kaihatsu h3 {
+  font-size: 40px;
+}
+
+.part h6, .lowpart h6, .kaihatsu h6 {
+  font-size: 22px;
+}
+
+
+/*	footer
+/*---------------------------------	*/
+.contact-box .tel {
+  display: none;
+}
+
+.foot-logo {
+  display: inline-block;
+}
+
+.foot-address {
+  display: inline-block;
+}
+
+footer .saiyo a{
+  width: 39%;
+}
+
+/* //////////////////// */
+/* medium 768px～ */
+/* ////////////////// */
+
+@media(min-width: 768px) {
+/*	header
+/*---------------------------------	*/
+
+.top-saiyo a{
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin-right: 10px;
+ margin-top: 8px;
+ margin-bottom: 8px;
+}
+
+.top-contact a{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+
+
+.navbar-brand img {
+  display: none;
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+/*	main
+/*---------------------------------	*/
+
+/* nav */
+nav.nav-pc {
+  display: block;
+}
+
+/* jigyo */
+.part {
+  display: inline-block;
+}
+
+.jigyo {
+  position: relative;
+  padding-left: 1%;
+}
+
+.jigyo .lpart {
+  float: left;
+  width: 40%;
+}
+
+.jigyo .rpart {
+  float: right;
+  position: absolute;
+  left:42%;
+  width: 50%;
+  max-width: 580px;
+}
+
+/* central */
+.central {
+  margin-top: 200px;
+}
+
+.central .lowpart {
+  margin: 0 auto;
+  width: 60%;
+  max-width: 620px;
+}
+
+/* kaihatsu */
+.kaihatsu {
+  position: relative;
+  padding-right: 1%;
+  padding-bottom: 250px;
+}
+
+.kaihatsu .lpart {
+  float: left;
+
+  position: absolute;
+
+  width: 50%;
+  max-width: 580px;
+
+  margin-top: 30%;
+  margin-left: 10%;
+}
+
+.kaihatsu .rpart {
+  float:right;
+  width: 40%;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+/*	footer
+/*---------------------------------	*/
+
+
+footer {
+  position: relative;
+  height: 200px;
+}
+
+
+.infomation {
+  display: inline-block;
+  position: absolute;
+  top:15px;
+}
+
+
+footer .saiyo a{
+  display: inline-block;
+  width: 150px;
+  position: absolute;
+  top: 12px;
+  right: 212px;
+}
+
+footer .mail a{
+ display: inline-block;
+ width: 150px;
+ position: absolute;
+ top: 12px;
+ right:42px;
+}
+
+.foot-logo img {
+  margin-left: 50px;
+  margin-right: 50px;
+}

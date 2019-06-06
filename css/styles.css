@@ -1,0 +1,454 @@
+
+
+html {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: "Lato", "Noto Sans JP", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
+
+
+/*	header
+/*---------------------------------	*/
+
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+  width: 100%;
+  height: 60px;
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+  width: 20%;
+}
+
+.navbar-nav li {
+  list-style: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.navbar-nav li a {
+  text-decoration: none;
+  padding: 5px 0px 5px;
+}
+
+.navbar-nav .theme {
+  background-color: #09b8f1;
+}
+
+.navbar-nav .theme a {
+  color: white;
+  padding-left: 20px;
+}
+
+.navbar-nav .sub{
+  background-color: #fff;
+  padding-left: 0px;
+}
+
+.navbar-nav .mgl-10 {
+  margin-left: 10px;
+}
+
+
+
+.navbar-nav .sub a{
+  color: #09b8f1;
+}
+
+.navbar-nav .sub li{
+  border-bottom: 1px solid #09b8f1;
+}
+
+.navbar-nav .theme a {
+  border-bottom: 1px solid #ffffff;
+}
+
+.navbar-nav a{
+  display: block;
+}
+
+
+.navbar-brand img {
+  width: 100%;
+  height: auto;
+}
+
+.facebook-wrap {
+  position: absolute;
+  left: 25%;
+  font-size: 24px;
+}
+
+.top-right {
+  font-size: 0;
+}
+
+.navbar {
+  height: 60px;
+}
+
+.top-saiyo {
+  display: inline-block;
+  display: none;
+  vertical-align: top;
+}
+
+.top-saiyo a {
+  border-radius: 0rem;
+  font-size: 14px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border: 0px;
+}
+
+
+.tomail {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  background-color: #ff6600;
+  font-size: 14px;
+  padding-top: 20px;
+  color: white;
+}
+
+.navbar-toggler, .top-contact {
+  vertical-align: top;
+}
+
+
+.top-contact {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+
+.top-contact a{
+  display: block;
+  background-color: #ff6600;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 19.5px 16px 19.5px;
+
+}
+
+
+.top-contact a:hover{
+  text-decoration: none;
+}
+
+.top-contact {
+  display: none;
+}
+
+
+
+
+
+/*	main
+/*---------------------------------	*/
+
+main {
+  margin-top: 60px;
+}
+
+.top-img {
+  position:relative;
+  width: 100%;
+  height:660px;
+}
+
+.slick-list {
+  height: 660px;
+}
+
+.top-img img {
+  position:absolute;
+/*　▼画像幅の半分、右に動かす*/
+  left:50%;
+  height:660px;
+  width: 2212px;
+/*　▼画像の幅の半分だけ、ネガティブマージンを設定*/
+  margin-left:-1106px;
+}
+
+.trans-logo img {
+  position: absolute;
+  top: 45px;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  /* margin: 0 auto; */
+}
+
+
+/*---------------------------------------*/
+.nav-pc {
+  top:-64px;
+
+	background-color: #09b8f1;
+	width: 100%;
+	position:relative;
+}
+
+.nav-pc ul {
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	display:table;
+	box-sizing:border-box;
+  padding-left: 0;
+}
+
+.nav-pc ul li {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	border-right: 1px solid white;
+	position: relative;
+}
+
+.nav-pc ul li a {
+	display: block;
+	height: 100%;
+	padding:20px 0;
+}
+
+.nav-pc ul li a:link,
+.nav-pc ul li a:visited,
+.nav-pc ul li a:hover,
+.nav-pc ul li a:active {
+	color: #fff;
+	background-color: #09b8f1;
+	text-decoration: none;
+}
+
+.nav-pc ul li a:hover {
+	background-color: #3294cc;
+}
+
+
+/* navドロップダウンメニュー */
+nav.nav-pc ul li ul {
+	display:block;
+	position: absolute;
+	bottom: 64px;
+	left: 0;
+/*	width: 100%; */
+	width: 230px;
+	z-index: 19999;
+}
+
+
+nav.nav-pc ul li ul li {
+	display: block;
+	visibility: hidden;
+	overflow: hidden;
+	max-height: 0;
+	color: #09b8f1;
+	background-color: #fff;
+	opacity: 1.0;
+	border: 1px solid #09b8f1;
+	border-top: none;
+	-webkit-transition: max-height 0.5s;
+	-moz-transition: max-height 0.5s;
+	-ms-transition: max-height 0.5s;
+	-o-transition: max-height 0.5s;
+	transition: max-height 0.5s;
+}
+
+nav.nav-pc ul li ul li:first-child {
+	border-top: 1px solid #09b8f1;
+}
+
+nav.nav-pc ul li ul li a {
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+	display: block;
+	padding: 10px 20px;
+	word-wrap: break-word;
+	overflow-wrap:break-word;
+}
+
+nav.nav-pc ul li ul li a:link,
+nav.nav-pc ul li ul li a:visited,
+nav.nav-pc ul li ul li a:hover,
+nav.nav-pc ul li ul li a:active {
+	color: #09b8f1;
+	background-color: #fff;
+	text-decoration: none;
+}
+
+nav.nav-pc ul li ul li a:hover {
+	color: #fff;
+	background-color: #09b8f1;
+}
+
+nav.nav-pc ul li:hover ul li,
+nav.nav-pc ul li a:hover ul li {
+	visibility: visible;
+	overflow: visible;
+	max-height: 100px;
+	z-index: 99999;
+}
+
+nav.nav-pc {
+  display: none;
+}
+
+.clearfix {
+  width: 100%;
+}
+
+.central {
+  width: 100%;
+  text-align: center;
+}
+
+.part p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.central p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.jigyo .lpart img {
+  width: 100%;
+  height: auto;
+}
+
+.uppart img {
+  width: 80%;
+  height: auto;
+}
+
+.kaihatsu .rpart img {
+  width: 100%;
+  height: auto;
+}
+
+
+/*	footer
+/*---------------------------------	*/
+
+footer {
+  padding-top: 1rem;
+  background-color: #f1f1ef;
+}
+
+footer p {
+  color: #09b8f1;
+}
+
+footer .btn {
+  border-radius: 0rem;
+}
+
+.contact-box {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer .saiyo a{
+  display: block;
+  background-color: #fff000;
+  color: #00baf7;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer .saiyo a:hover {
+  text-decoration: none;
+}
+
+
+footer .tel {
+    width: 49%;
+}
+
+footer .mail {
+    width: 49%;
+}
+
+footer .tel a{
+  display: block;
+  background-color: #09b8f1;
+  color: #ffffff;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer .tel a:hover {
+  text-decoration: none;
+}
+
+footer .mail a{
+  display: block;
+  background-color: #ff6600;
+  color: #ffffff;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer .mail a:hover {
+  text-decoration: none;
+}
+
+footer a:hover{
+  opacity: 1.6;
+}
+
+.contact {
+  display: inline-block;
+}
+
+.cont a {
+  border-radius: 0rem;
+  box-shadow: 0 3px 0 #ccc;
+}
+
+.cont a:hover {
+  position: relative;
+  top: 3px;
+  box-shadow: none;
+}
+
+
+.bg-info a{
+  border-radius: 0rem;
+}
