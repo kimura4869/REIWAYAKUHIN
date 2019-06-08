@@ -30,8 +30,11 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 #menu {
   overflow: scroll;
-  height: 100vh; /* これを追加。スクロールがスマホの
-  末端で停止するのを防止*/ 
+  height: 400px; 
+  /* height: 100vh;  */
+
+  /* これを追加。スクロールがスマホの
+  末端で停止するのを防止*/
 }
 
 
