@@ -79,7 +79,8 @@ footer .saiyo a{
 
 
 .navbar-brand img {
-  display: none;
+  width: 40%;
+  height: 40%;
 }
 
 .navbar-toggler {
