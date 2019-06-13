@@ -48,10 +48,22 @@ header {
 }
 
 /* 6月13日追記 */
+
+
+#sc-head{
+	display:none;
+}
+
 .head-nav {
   width: 100%;
   height: auto;
 }
+.logos {
+  width: 100%;
+  height: auto;
+}
+
+
 /* 以上 */
 
 .navbar-brand {
